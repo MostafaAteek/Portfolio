@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mostafa Ateek | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- NAVIGATION -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>MA<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <button class="nav-burger" id="burger" aria-label="Toggle menu">
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"         class="nav-link">Home</a></li>
+        <li><a href="#about"        class="nav-link">About</a></li>
+        <li><a href="#services"     class="nav-link">Services</a></li>
+        <li><a href="#skills"       class="nav-link">Skills</a></li>
+        <li><a href="#softskills"  class="nav-link">Soft Skills</a></li>
+        <li><a href="#projects"     class="nav-link">Projects</a></li>
+        <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+        <li><a href="#contact"      class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+
+        <!-- Left -->
+        <div class="hero-content">
+          <p class="hero-hello" data-aos>
+            <span class="dot"></span> Hello, I'm
+          </p>
+          <h1 class="hero-name" data-aos data-aos-delay="100">
+            Mostafa<br /><span class="neon">Ateek</span>
+          </h1>
+          <p class="hero-role" data-aos data-aos-delay="180">
+            <span class="role-prefix">&gt;&nbsp;</span><span id="typedText"></span><span class="cursor-type">_</span>
+          </p>
+          <p class="hero-desc" data-aos data-aos-delay="260">
+            I craft blazing-fast, pixel-perfect web experiences that live at the intersection of engineering precision and creative design.
+          </p>
+          <div class="hero-actions" data-aos data-aos-delay="340">
+            <a href="#contact"  class="btn btn-neon">Let's Work Together <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#projects" class="btn btn-outline">View Projects</a>
+          </div>
+          <div class="hero-socials" data-aos data-aos-delay="420">
+            <span class="social-label">Check Out My</span>
+            <a href="https://github.com/" target="_blank" class="social-pill" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mostafa-ateek-4745a628a/" target="_blank" class="social-pill" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <!-- Right: Hexagon photo -->
+        <div class="hero-visual" data-aos data-aos-delay="100">
+          <div class="hex-glow-ring"></div>
+          <div class="hex-wrap">
+            <div class="hex-frame">
+              <div class="hex-inner">
+                <i class="fa-solid fa-user"><img src="/ChatGPT Image 28 فبراير 2026، 09_11_35 م.png" alt=""></i>
+              </div>
+            </div>
+          </div>
+          <!-- Floating badges -->
+          <div class="float-badge badge-html">
+            <i class="fa-brands fa-html5"></i> HTML5
+          </div>
+          <div class="float-badge badge-css">
+            <i class="fa-brands fa-css3-alt"></i> CSS3
+          </div>
+          <div class="float-badge badge-js">
+            <i class="fa-brands fa-js"></i> JS
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll indicator -->
+      <div class="scroll-hint">
+        <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!--ABOUT-->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-tag" data-aos>// about_me</div>
+        <h2 class="section-title" data-aos>Who I <span class="neon">Am</span></h2>
+
+        <div class="about-grid">
+          <div class="about-img-col" data-aos>
+            <div class="about-img-frame">
+              <i class="fa-solid fa-user"><img src="/ChatGPT Image 28 فبراير 2026، 09_11_35 م.png" alt=""></i>
+              <div class="frame-corner tl"></div>
+              <div class="frame-corner tr"></div>
+              <div class="frame-corner bl"></div>
+              <div class="frame-corner br"></div>
+            </div>
+            <div class="about-stats">
+              <div class="stat-box" data-aos data-aos-delay="80">
+                <span class="stat-num neon" data-target="10">0</span><span class="stat-plus neon">+</span>
+                <span class="stat-label">Projects</span>
+              </div>
+              <div class="stat-box" data-aos data-aos-delay="160">
+                <span class="stat-num neon" data-target="6">0</span><span class="stat-plus neon">+</span>
+                <span class="stat-label">Technologies</span>
+              </div>
+              <div class="stat-box" data-aos data-aos-delay="240">
+                <span class="stat-num neon" data-target="2">0</span><span class="stat-plus neon">+</span>
+                <span class="stat-label">Yrs Coding</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-text-col" data-aos data-aos-delay="120">
+            <p class="about-bio">I'm a <strong class="neon">Software Engineering </strong> with a sharp focus on Front-End Development. I build web applications that are fast, accessible, and beautiful — combining modern JavaScript frameworks with meticulous attention to UI/UX principles.</p>
+            <p class="about-bio">My engineering background gives me a systems-thinking perspective, while my passion for front-end work drives me to obsess over every pixel, interaction, and performance bottleneck.</p>
+
+            <div class="about-info-grid">
+              <div class="ai-item"><span class="ai-label">Name</span><span>Mostafa Ateek</span></div>
+              <div class="ai-item"><span class="ai-label">Email</span><span>MostafaAteek@gmail.com</span></div>
+              <div class="ai-item"><span class="ai-label">Degree</span><span>Software Engineering (B.Sc.)</span></div>
+              <div class="ai-item"><span class="ai-label">Location</span><span>Egypt</span></div>
+              <div class="ai-item"><span class="ai-label">Focus</span><span>Front-End Development</span></div>
+              <div class="ai-item"><span class="ai-label">Status</span><span class="neon">Available for work</span></div>
+            </div>
+
+            <a href="/Resume.pdf" class="btn btn-neon mt-btn">Download CV <i class="fa-solid fa-download"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-tag" data-aos>// my_services</div>
+        <h2 class="section-title" data-aos>What I <span class="neon">Build</span></h2>
+        <p class="section-sub" data-aos>Specialized front-end expertise across three core disciplines</p>
+
+        <div class="services-grid">
+
+          <div class="srv-card" data-aos data-aos-delay="0">
+            <div class="srv-icon-wrap">
+              <i class="fa-solid fa-globe"></i>
+              <div class="srv-icon-glow"></div>
+            </div>
+            <h3 class="srv-title">Responsive Websites</h3>
+            <p class="srv-desc">Pixel-perfect, mobile-first websites that adapt fluidly to every screen size. Built with semantic HTML, modern CSS, and performance-first thinking.</p>
+            <div class="srv-arrow"><i class="fa-solid fa-arrow-up-right"></i></div>
+          </div>
+
+          <div class="srv-card featured" data-aos data-aos-delay="100">
+            <div class="srv-icon-wrap">
+              <i class="fa-solid fa-layer-group"></i>
+              <div class="srv-icon-glow"></div>
+            </div>
+            <h3 class="srv-title">Modern Web Applications</h3>
+            <p class="srv-desc">Dynamic, component-driven SPAs using Angular — featuring routing, reactive state, API integration, and clean architecture patterns.</p>
+            <div class="srv-arrow"><i class="fa-solid fa-arrow-up-right"></i></div>
+          </div>
+
+          <div class="srv-card" data-aos data-aos-delay="200">
+            <div class="srv-icon-wrap">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+              <div class="srv-icon-glow"></div>
+            </div>
+            <h3 class="srv-title">UI Implementation & Optimization</h3>
+            <p class="srv-desc">Translating designs into high-performance code. Micro-interactions, animation, Core Web Vitals optimization, and accessibility compliance.</p>
+            <div class="srv-arrow"><i class="fa-solid fa-arrow-up-right"></i></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!--SKILLS -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-tag" data-aos>// tech_stack</div>
+        <h2 class="section-title" data-aos>My <span class="neon">Technical Skills</span></h2>
+        <p class="section-sub" data-aos>Technologies I wield on a daily basis</p>
+
+        <div class="skills-layout">
+          <div class="skills-bars" data-aos>
+            <div class="sb-item">
+              <div class="sb-top"><span><i class="fa-brands fa-html5"></i> HTML5</span></div>
+              <div class="sb-track"><div class="sb-fill" data-w="99"></div></div>
+            </div>
+            <div class="sb-item">
+              <div class="sb-top"><span><i class="fa-brands fa-css3-alt"></i> CSS3</span></div>
+              <div class="sb-track"><div class="sb-fill" data-w="98"></div></div>
+            </div>
+            <div class="sb-item">
+              <div class="sb-top"><span><i class="fa-brands fa-js"></i> JavaScript</span></div>
+              <div class="sb-track"><div class="sb-fill" data-w="100"></div></div>
+            </div>
+            <div class="sb-item">
+              <div class="sb-top"><span><i class="fa-brands fa-angular"></i> Angular</span></div>
+              <div class="sb-track"><div class="sb-fill" data-w="98"></div></div>
+            </div>
+            <div class="sb-item">
+              <div class="sb-top"><span><i class="fa-solid fa-mobile-screen"></i> Responsive Design</span></div>
+              <div class="sb-track"><div class="sb-fill" data-w="96"></div></div>
+            </div>
+            <div class="sb-item">
+              <div class="sb-top"><span><i class="fa-brands fa-git-alt"></i> Git & GitHub</span></div>
+              <div class="sb-track"><div class="sb-fill" data-w="99"></div></div>
+            </div>
+          </div>
+
+          <div class="skills-cards" data-aos data-aos-delay="120">
+            <div class="sk-pill"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+            <div class="sk-pill"><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+            <div class="sk-pill"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+            <div class="sk-pill"><i class="fa-brands fa-angular"></i><span>Angular</span></div>
+            <div class="sk-pill"><i class="fa-brands fa-git-alt"></i><span>Git</span></div>
+            <div class="sk-pill"><i class="fa-brands fa-github"></i><span>GitHub</span></div>
+            <div class="sk-pill"><i class="fa-solid fa-mobile-screen"></i><span>Responsive</span></div>
+            <div class="sk-pill"><i class="fa-solid fa-palette"></i><span>UI/UX</span></div>
+            <div class="sk-pill"><i class="fa-solid fa-code"></i><span>ES6+</span></div>
+            <div class="sk-pill"><i class="fa-solid fa-bolt"></i><span>Performance</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOFT SKILLS -->
+    <section class="section softskills-section" id="softskills">
+      <div class="container">
+        <div class="section-tag" data-aos>// soft_skills</div>
+        <h2 class="section-title" data-aos>Soft <span class="neon">Skills</span></h2>
+        <p class="section-sub" data-aos>The human-side qualities that make my work truly impactful</p>
+
+        <div class="soft-grid">
+
+          <div class="soft-card" data-aos data-aos-delay="0">
+            <div class="soft-icon-wrap">
+              <i class="fa-solid fa-comments"></i>
+              <div class="soft-icon-ring"></div>
+            </div>
+            <h3 class="soft-title">Communication</h3>
+            <p class="soft-desc">Clear, concise communication with teammates, clients, and stakeholders — turning complex technical ideas into understandable language.</p>
+            <div class="soft-bar-wrap">
+              <div class="soft-track"><div class="soft-fill" data-w="90"></div></div>
+            </div>
+          </div>
+
+          <div class="soft-card" data-aos data-aos-delay="80">
+            <div class="soft-icon-wrap">
+              <i class="fa-solid fa-people-group"></i>
+              <div class="soft-icon-ring"></div>
+            </div>
+            <h3 class="soft-title">Teamwork</h3>
+            <p class="soft-desc">Collaborative mindset with experience working in agile teams — contributing ideas, helping others, and delivering cohesive results together.</p>
+            <div class="soft-bar-wrap">
+              <div class="soft-track"><div class="soft-fill" data-w="88"></div></div>
+            </div>
+          </div>
+
+          <div class="soft-card" data-aos data-aos-delay="160">
+            <div class="soft-icon-wrap">
+              <i class="fa-solid fa-lightbulb"></i>
+              <div class="soft-icon-ring"></div>
+            </div>
+            <h3 class="soft-title">Problem Solving</h3>
+            <p class="soft-desc">Analytical thinker who breaks complex problems into manageable steps — finding elegant solutions under pressure and tight deadlines.</p>
+            <div class="soft-bar-wrap">
+              <div class="soft-track"><div class="soft-fill" data-w="94"></div></div>
+            </div>
+          </div>
+
+          <div class="soft-card" data-aos data-aos-delay="240">
+            <div class="soft-icon-wrap">
+              <i class="fa-solid fa-clock-rotate-left"></i>
+              <div class="soft-icon-ring"></div>
+            </div>
+            <h3 class="soft-title">Time Management</h3>
+            <p class="soft-desc">Disciplined with planning and prioritization — consistently delivering projects on schedule while maintaining high-quality output.</p>
+            <div class="soft-bar-wrap">
+              <div class="soft-track"><div class="soft-fill" data-w="95"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--PROJECTS -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-tag" data-aos>// featured_work</div>
+        <h2 class="section-title" data-aos>Featured <span class="neon">Projects</span></h2>
+        <p class="section-sub" data-aos>A curated selection of my best work</p>
+
+        <div class="projects-grid">
+
+          <article class="proj-card" data-aos>
+            <div class="proj-thumb">
+              <i class="fa-solid fa-store"></i>
+              <div class="proj-overlay">
+                <a href="#" class="btn btn-neon btn-xs">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="#" class="btn btn-outline btn-xs"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-num neon">01</div>
+              <h3 class="proj-title">E-Commerce Platform UI</h3>
+              <p class="proj-desc">A full-featured online storefront with product catalogue, filtering, cart, and checkout flow. Mobile-first, conversion-optimized design.</p>
+              <div class="proj-tech">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+              </div>
+              <div class="proj-footer">
+                <a href="#" class="plink"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="#" class="plink neon"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="proj-card featured-proj" data-aos data-aos-delay="100">
+            <div class="proj-thumb">
+              <i class="fa-solid fa-chart-line"></i>
+              <div class="proj-overlay">
+                <a href="#" class="btn btn-neon btn-xs">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="#" class="btn btn-outline btn-xs"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-num neon">02</div>
+              <h3 class="proj-title">Admin Dashboard Interface</h3>
+              <p class="proj-desc">Angular analytics dashboard with real-time data charts, sidebar navigation, user management tables, and a polished dark-mode UI.</p>
+              <div class="proj-tech">
+                <span>Angular</span><span>TypeScript</span><span>RxJS</span><span>CSS</span>
+              </div>
+              <div class="proj-footer">
+                <a href="#" class="plink"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="#" class="plink neon"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="proj-card" data-aos data-aos-delay="200">
+            <div class="proj-thumb">
+              <i class="fa-solid fa-cloud-sun"></i>
+              <div class="proj-overlay">
+                <a href="#" class="btn btn-neon btn-xs">Live Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                <a href="#" class="btn btn-outline btn-xs"><i class="fa-brands fa-github"></i> GitHub</a>
+              </div>
+            </div>
+            <div class="proj-body">
+              <div class="proj-num neon">03</div>
+              <h3 class="proj-title">Weather Application</h3>
+              <p class="proj-desc">Real-time weather data via OpenWeather API. Displays temperature, humidity, wind speed, and a 5-day forecast with animated weather icons.</p>
+              <div class="proj-tech">
+                <span>JavaScript</span><span>REST API</span><span>CSS</span><span>Async/Await</span>
+              </div>
+              <div class="proj-footer">
+                <a href="#" class="plink"><i class="fa-brands fa-github"></i> GitHub</a>
+                <a href="#" class="plink neon"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!--TESTIMONIALS -->
+    <section class="section testi-section" id="testimonials">
+      <div class="container">
+        <div class="section-tag" data-aos>// client_reviews</div>
+        <h2 class="section-title" data-aos>What Clients <span class="neon">Say</span></h2>
+
+        <div class="testi-slider-wrap" data-aos>
+          <div class="testi-track" id="testiTrack">
+
+            <div class="testi-card">
+              <div class="tcard-top">
+                <div class="tcard-stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="tcard-quote"><i class="fa-solid fa-quote-left"></i></div>
+              </div>
+              <p class="tcard-text">"Mostafa delivered a stunning e-commerce UI that exceeded our expectations. His attention to detail on mobile responsiveness and page performance was remarkable. A true professional."</p>
+              <div class="tcard-author">
+                <div class="tcard-avatar"><i class="fa-solid fa-user"></i></div>
+                <div class="tcard-info">
+                  <strong>Ahmed Hassan</strong>
+                  <span>Product Manager, TechStart</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testi-card">
+              <div class="tcard-top">
+                <div class="tcard-stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="tcard-quote"><i class="fa-solid fa-quote-left"></i></div>
+              </div>
+              <p class="tcard-text">"The dashboard Mostafa built for us transformed how we visualize our data. Clean code, great communication throughout the project, and delivered ahead of schedule."</p>
+              <div class="tcard-author">
+                <div class="tcard-avatar"><i class="fa-solid fa-user"></i></div>
+                <div class="tcard-info">
+                  <strong>Sara Kamal</strong>
+                  <span>CTO, DataFlow Agency</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="testi-card">
+              <div class="tcard-top">
+                <div class="tcard-stars">
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                </div>
+                <div class="tcard-quote"><i class="fa-solid fa-quote-left"></i></div>
+              </div>
+              <p class="tcard-text">"Excellent front-end skills paired with a great eye for design. Mostafa turned our outdated website into a modern, fast-loading platform. Highly recommended."</p>
+              <div class="tcard-author">
+                <div class="tcard-avatar"><i class="fa-solid fa-user"></i></div>
+                <div class="tcard-info">
+                  <strong>Omar Nabil</strong>
+                  <span>Founder, CreativeBox</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="testi-controls">
+            <button class="tctrl" id="testiPrev" aria-label="Previous"><i class="fa-solid fa-chevron-left"></i></button>
+            <div class="testi-dots" id="testiDots"></div>
+            <button class="tctrl" id="testiNext" aria-label="Next"><i class="fa-solid fa-chevron-right"></i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-tag" data-aos>// get_in_touch</div>
+        <h2 class="section-title" data-aos>Let's <span class="neon">Connect</span></h2>
+        <p class="section-sub" data-aos>Have a project idea? I'd love to bring it to life.</p>
+
+        <div class="contact-grid">
+
+          <div class="contact-info" data-aos>
+            <h3 class="cinfo-title">Say Hello</h3>
+            <p class="cinfo-para">I'm always open to discussing new projects, creative ideas, or opportunities to be part of something great. Let's build something amazing together.</p>
+
+            <div class="cinfo-items">
+              <div class="ci-item">
+                <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div><span class="ci-label">Email</span><a href="mailto:mostafaAteek@email.com">mostafaAteek@email.com</a></div>
+              </div>
+              <div class="ci-item">
+                <div class="ci-icon"><i class="fa-solid fa-map-pin"></i></div>
+                <div><span class="ci-label">Location</span><span>Egypt</span></div>
+              </div>
+              <div class="ci-item">
+                <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+                <div><span class="ci-label">Phone</span><span>+20 100 000 0000</span></div>
+              </div>
+            </div>
+
+            <div class="cinfo-social">
+              <a href="https://github.com/" target="_blank" class="csoc-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/mostafa-ateek-4745a628a/" target="_blank" class="csoc-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate data-aos data-aos-delay="120">
+            <div class="cf-row-2">
+              <div class="cf-group">
+                <label for="cfName">Name</label>
+                <input type="text" id="cfName" name="name" placeholder="Your name" required />
+              </div>
+              <div class="cf-group">
+                <label for="cfEmail">Email</label>
+                <input type="email" id="cfEmail" name="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="cf-group">
+              <label for="cfSubject">Subject</label>
+              <input type="text" id="cfSubject" name="subject" placeholder="Project inquiry" />
+            </div>
+            <div class="cf-group">
+              <label for="cfMsg">Message</label>
+              <textarea id="cfMsg" name="message" rows="6" placeholder="Tell me about your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-neon btn-full">
+              Send Message <i class="fa-solid fa-paper-plane"></i>
+            </button>
+            <p class="cf-status" id="cfStatus"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--FOOTER-->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#home" class="footer-logo">
+        <span class="logo-bracket">&lt;</span>MA<span class="logo-bracket">/&gt;</span>
+      </a>
+      <p class="footer-copy">© 2026 <span class="neon">Mostafa Ateek</span>. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/mostafa-ateek-4745a628a/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+    <svg class="stt-ring" viewBox="0 0 46 46"><circle cx="23" cy="23" r="21" /></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
